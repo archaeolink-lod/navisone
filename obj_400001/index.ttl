@@ -1,0 +1,21 @@
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/navisone/obj_400001> a ns1:InformationCarrier ;
+    rdfs:label "Hjemmeluft: Bergbukten 1"@en ;
+    ns1:hasImage <https://gitlab.rlp.net/wissit/img/navisone-images/-/raw/main/alta/bb1_mosaic.png> ;
+    ns1:hasObjectTypeString "Felszeichnung"@de,
+        "Rock Art"@en ;
+    ns1:hasType ns1:Rockart ;
+    ns1:madeByString "Geschnitten"@de,
+        "Carving"@en ;
+    ns1:madeOfString "Anstehendes Gestein"@de,
+        "Sandstein"@de,
+        "Bedrock"@en,
+        "Sandstone"@en ;
+    ns1:timeInterval "Gjerde Phase 1 (5200-4200)"@de,
+        "Helskog Periode II (4800-4000)"@de,
+        "Gjerde Phase 1 (5200-4200)"@en,
+        "Helskog Period II (4800-4000)"@en ;
+    rdfs:seeAlso <https://archaeolink.github.io/navisone-lod/obj_400001/index.html> .
+

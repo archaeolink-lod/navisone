@@ -1,0 +1,19 @@
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/navisone/obj_300058> a ns1:InformationCarrier ;
+    rdfs:label "O41509 > P119a | Elagabal"@en ;
+    ns1:hasImage <https://gitlab.rlp.net/wissit/img/navisone-images/-/raw/main/large/41509r00l.gif> ;
+    ns1:hasObjectTypeString "Aes"@de,
+        "M&uuml;nze"@de,
+        "Provinzialprägung"@de,
+        "Aes"@en,
+        "Coin"@en,
+        "Provinzialprägung"@en ;
+    ns1:hasType ns1:Romancoin ;
+    ns1:madeByString "Gepr&auml;gt"@de,
+        "Minted"@en ;
+    ns1:timeInterval "Römisch"@de,
+        "Roman"@en ;
+    rdfs:seeAlso <https://archaeolink.github.io/navisone-lod/obj_300058/index.html> .
+

@@ -1,0 +1,17 @@
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/navisone/obj_200654> a ns1:InformationCarrier ;
+    rdfs:label "Sarcofago con Eros e Psiche naviganti"@en ;
+    ns1:hasImage <https://gitlab.rlp.net/wissit/img/navisone-images/-/raw/main/it/itobj0561img01f.jpg> ;
+    ns1:hasObjectTypeString "Sarkophag"@de,
+        "Sarcophagus"@en ;
+    ns1:hasType ns1:Generic ;
+    ns1:madeByString "Bildhauerei"@de,
+        "Sculpture"@en ;
+    ns1:madeOfString "Marmor"@de,
+        "Marble"@en ;
+    ns1:timeInterval "Römisch (spät)"@de,
+        "Roman (late)"@en ;
+    rdfs:seeAlso <https://archaeolink.github.io/navisone-lod/obj_200654/index.html> .
+

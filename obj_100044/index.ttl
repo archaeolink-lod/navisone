@@ -1,0 +1,25 @@
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/navisone/obj_100044> a ns1:InformationCarrier ;
+    rdfs:label "Zwammerdam 2 > 76"@en ;
+    ns1:hasImage <https://gitlab.rlp.net/wissit/img/navisone-images/-/raw/main/ship076/image/076f0011.jpg> ;
+    ns1:hasObjectTypeString "Schiffswrack"@de,
+        "Wreck"@en ;
+    ns1:hasType ns1:Wreck ;
+    ns1:madeOfString "Esche"@de,
+        "Pappel"@de,
+        "Pinie"@de,
+        "Steineiche"@de,
+        "Zypresse"@de,
+        "Ölbaum"@de,
+        "Ash (Fraxinus spp.)"@en,
+        "Cypress (Cupressus)"@en,
+        "Holm oak (Quercus ilex)"@en,
+        "Olive (Oleae aeuropea)"@en,
+        "Pine (Pinus sp.)"@en,
+        "Poplar"@en ;
+    ns1:timeInterval "Römisch"@de,
+        "Roman"@en ;
+    rdfs:seeAlso <https://archaeolink.github.io/navisone-lod/obj_100044/index.html> .
+

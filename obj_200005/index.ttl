@@ -1,0 +1,11 @@
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/navisone/obj_200005> a ns1:InformationCarrier ;
+    rdfs:label "Mosaic from Cherchel, Maison aux deux bassins"@en ;
+    ns1:hasImage <https://gitlab.rlp.net/wissit/img/navisone-images/-/raw/main/al/alobj0004img01f.jpg> ;
+    ns1:hasObjectTypeString "Mosaik"@de,
+        "Mosaic"@en ;
+    ns1:hasType ns1:Generic ;
+    rdfs:seeAlso <https://archaeolink.github.io/navisone-lod/obj_200005/index.html> .
+

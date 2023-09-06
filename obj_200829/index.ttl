@@ -1,0 +1,17 @@
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/navisone/obj_200829> a ns1:InformationCarrier ;
+    rdfs:label "&Ouml;verhogdal taeppe III"@en ;
+    ns1:hasImage <https://gitlab.rlp.net/wissit/img/navisone-images/-/raw/main/se/seobj0035img00a1f.jpg> ;
+    ns1:hasObjectTypeString "Teppich"@de,
+        "Tapestry"@en ;
+    ns1:hasType ns1:Generic ;
+    ns1:madeByString "Gewebt"@de,
+        "Weaving"@en ;
+    ns1:madeOfString "Gewebe"@de,
+        "Textile"@en ;
+    ns1:timeInterval "Mittelalterlich"@de,
+        "Medieval"@en ;
+    rdfs:seeAlso <https://archaeolink.github.io/navisone-lod/obj_200829/index.html> .
+
