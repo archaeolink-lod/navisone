@@ -32,5 +32,5 @@ jobs:
       logourl: https://raw.githubusercontent.com/archaeolink-lod/unicorn-ontdoc-template-nmt/main/icons/al_circle_icon.png
       ogcapifeatures: true
       datasettitle: NAVISone Linked Open Data
-      templatedir: https://github.com/archaeolink-lod/unicorn-ontdoc-template-archaeolink/archive/refs/tags/v0.2.zip
+      templatedir: https://github.com/archaeolink-lod/unicorn-ontdoc-template-archaeolink/archive/refs/tags/v0.3.zip
       iiif: false
