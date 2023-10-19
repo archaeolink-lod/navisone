@@ -24535,7 +24535,7 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 1742,
-              "http://www.w3.org/ns/prov#Activity": 1742
+              "http://archaeology.link/ontology#InformationCarrier": 1742
             }
           },
           "from": {}
