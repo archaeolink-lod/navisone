@@ -1,5 +1,0 @@
-@prefix ns1: <http://archaeology.link/ontology#> .
-
-<http://data.archaeology.link/data/navisone/obj_100111> ns1:hasObjectTypeString "Schiffswrack"@de,
-        "Wreck"@en .
-
