@@ -12252,15 +12252,6 @@ var tree={
             "http://archaeology.link/ontology#hasType": {
               "instancecount": 1
             },
-            "http://archaeology.link/ontology#madeByString": {
-              "instancecount": 2
-            },
-            "http://archaeology.link/ontology#madeOfString": {
-              "instancecount": 2
-            },
-            "http://archaeology.link/ontology#timeInterval": {
-              "instancecount": 2
-            },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
             },
@@ -12278,7 +12269,7 @@ var tree={
             }
           }
         },
-        "instancecount": 13
+        "instancecount": 7
       },
       {
         "id": "http://data.archaeology.link/data/navisone/activity_100007",
@@ -24535,7 +24526,7 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 1742,
-              "http://archaeology.link/ontology#InformationCarrier": 1742
+              "http://www.w3.org/ns/prov#Activity": 1742
             }
           },
           "from": {}
