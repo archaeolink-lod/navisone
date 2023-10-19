@@ -1,0 +1,17 @@
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/navisone/obj_200808> a ns1:InformationCarrier ;
+    rdfs:label "L&auml;rbro T&auml;ngelg&aring;rda II"@en ;
+    ns1:hasImage <https://gitlab.rlp.net/wissit/img/navisone-images/-/raw/main/se/seobj0010img00af.jpg> ;
+    ns1:hasObjectTypeString "Bildstein"@de,
+        "Picture Stone"@en ;
+    ns1:hasType ns1:Generic ;
+    ns1:madeByString "Geschnitten"@de,
+        "Carving"@en ;
+    ns1:madeOfString "Kalkstein"@de,
+        "Limestone"@en ;
+    ns1:timeInterval "Eisenzeitlich"@de,
+        "Iron Age"@en ;
+    rdfs:seeAlso <https://archaeolink.github.io/navisone-lod/obj_200808/index.html> .
+

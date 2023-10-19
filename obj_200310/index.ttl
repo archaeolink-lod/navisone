@@ -1,0 +1,17 @@
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/navisone/obj_200310> a ns1:InformationCarrier ;
+    rdfs:label "Bateau de Souvigny"@en ;
+    ns1:hasImage <https://gitlab.rlp.net/wissit/img/navisone-images/-/raw/main/fr/frobj00351img1f.jpg> ;
+    ns1:hasObjectTypeString "Malerei"@de,
+        "Painting"@en ;
+    ns1:hasType ns1:Generic ;
+    ns1:madeByString "Sonstige"@de,
+        "Other"@en ;
+    ns1:madeOfString "Pergament"@de,
+        "Parchment"@en ;
+    ns1:timeInterval "Mittelalterlich"@de,
+        "Medieval"@en ;
+    rdfs:seeAlso <https://archaeolink.github.io/navisone-lod/obj_200310/index.html> .
+

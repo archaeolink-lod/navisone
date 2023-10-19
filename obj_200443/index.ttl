@@ -1,0 +1,17 @@
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/navisone/obj_200443> a ns1:InformationCarrier ;
+    rdfs:label "Stele di P. Clodius Quirinalis, Trieste, Via Romagna"@en ;
+    ns1:hasImage <https://gitlab.rlp.net/wissit/img/navisone-images/-/raw/main/it/itobj0043img01f.jpg> ;
+    ns1:hasObjectTypeString "Grabstein"@de,
+        "Gravestone"@en ;
+    ns1:hasType ns1:Generic ;
+    ns1:madeByString "Bildhauerei"@de,
+        "Sculpture"@en ;
+    ns1:madeOfString "Kalkstein"@de,
+        "Limestone"@en ;
+    ns1:timeInterval "Römisch"@de,
+        "Roman"@en ;
+    rdfs:seeAlso <https://archaeolink.github.io/navisone-lod/obj_200443/index.html> .
+

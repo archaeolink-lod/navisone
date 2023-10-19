@@ -1,0 +1,9 @@
+@prefix ns1: <http://archaeology.link/ontology#> .
+
+<http://data.archaeology.link/data/navisone/obj_100098> ns1:hasObjectTypeString "Schiffswrack"@de,
+        "Wreck"@en ;
+    ns1:madeOfString "Eiche"@de,
+        "Oak (Quercus spp.)"@en ;
+    ns1:timeInterval "Römisch"@de,
+        "Roman"@en .
+

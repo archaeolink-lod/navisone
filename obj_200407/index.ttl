@@ -1,0 +1,11 @@
+@prefix ns1: <http://archaeology.link/ontology#> .
+
+<http://data.archaeology.link/data/navisone/obj_200407> ns1:hasObjectTypeString "Handschrift"@de,
+        "Manuscript"@en ;
+    ns1:madeByString "Tinte"@de,
+        "Ink"@en ;
+    ns1:madeOfString "Pergament"@de,
+        "Parchment"@en ;
+    ns1:timeInterval "Römisch"@de,
+        "Roman"@en .
+
