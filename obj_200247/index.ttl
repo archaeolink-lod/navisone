@@ -1,0 +1,17 @@
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/navisone/obj_200247> a ns1:InformationCarrier ;
+    rdfs:label "Le chale de Sabine"@en ;
+    ns1:hasImage <https://gitlab.rlp.net/wissit/img/navisone-images/-/raw/main/fr/frobj0019img01f.jpg> ;
+    ns1:hasObjectTypeString "Gewebe"@de,
+        "Textile"@en ;
+    ns1:hasType ns1:Generic ;
+    ns1:madeByString "Gewebt"@de,
+        "Weaving"@en ;
+    ns1:madeOfString "Gewebe"@de,
+        "Textile"@en ;
+    ns1:timeInterval "Byzantinisch"@de,
+        "Byzantine"@en ;
+    rdfs:seeAlso <https://archaeolink.github.io/navisone-lod/obj_200247/index.html> .
+

@@ -1,0 +1,17 @@
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/navisone/obj_200413> a ns1:InformationCarrier ;
+    rdfs:label "Terracotta da Isola Sacra con nave caudicaria"@en ;
+    ns1:hasImage <https://gitlab.rlp.net/wissit/img/navisone-images/-/raw/main/it/itobj0106img01f.jpg> ;
+    ns1:hasObjectTypeString "Relief"@de,
+        "Relief"@en ;
+    ns1:hasType ns1:Generic ;
+    ns1:madeByString "Ausgeformt"@de,
+        "Moulded"@en ;
+    ns1:madeOfString "Keramik"@de,
+        "Ceramic"@en ;
+    ns1:timeInterval "Römisch"@de,
+        "Roman"@en ;
+    rdfs:seeAlso <https://archaeolink.github.io/navisone-lod/obj_200413/index.html> .
+

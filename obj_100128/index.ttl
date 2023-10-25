@@ -1,0 +1,11 @@
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/navisone/obj_100128> a ns1:InformationCarrier ;
+    rdfs:label "Skuldelev 6 > 5"@en ;
+    ns1:hasImage <https://gitlab.rlp.net/wissit/img/navisone-images/-/raw/main/ship005/image/005f001.jpg> ;
+    ns1:hasObjectTypeString "Schiffswrack"@de,
+        "Wreck"@en ;
+    ns1:hasType ns1:Wreck ;
+    rdfs:seeAlso <https://archaeolink.github.io/navisone-lod/obj_100128/index.html> .
+

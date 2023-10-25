@@ -1,0 +1,17 @@
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/navisone/obj_200002> a ns1:InformationCarrier ;
+    rdfs:label "Mosaic de les jeux"@en ;
+    ns1:hasImage <https://gitlab.rlp.net/wissit/img/navisone-images/-/raw/main/al/alobj0001img00f.jpg> ;
+    ns1:hasObjectTypeString "Mosaik"@de,
+        "Mosaic"@en ;
+    ns1:hasType ns1:Generic ;
+    ns1:madeByString "Mosaik"@de,
+        "Mosaic"@en ;
+    ns1:madeOfString "Stein"@de,
+        "Stone"@en ;
+    ns1:timeInterval "Römisch (spät)"@de,
+        "Roman (late)"@en ;
+    rdfs:seeAlso <https://archaeolink.github.io/navisone-lod/obj_200002/index.html> .
+

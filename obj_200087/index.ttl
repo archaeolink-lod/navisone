@@ -1,0 +1,17 @@
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/navisone/obj_200087> a ns1:InformationCarrier ;
+    rdfs:label "Codex Mon. Lat (Clm) 210, fol 163"@en ;
+    ns1:hasImage <https://gitlab.rlp.net/wissit/img/navisone-images/-/raw/main/de/deobj0019img01f.jpg> ;
+    ns1:hasObjectTypeString "Handschrift"@de,
+        "Manuscript"@en ;
+    ns1:hasType ns1:Generic ;
+    ns1:madeByString "Tinte"@de,
+        "Ink"@en ;
+    ns1:madeOfString "Farbe"@de,
+        "Paint"@en ;
+    ns1:timeInterval "Karolingisch"@de,
+        "Carolingian"@en ;
+    rdfs:seeAlso <https://archaeolink.github.io/navisone-lod/obj_200087/index.html> .
+

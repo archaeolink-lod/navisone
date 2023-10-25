@@ -1,0 +1,17 @@
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/navisone/obj_100057> a ns1:InformationCarrier ;
+    rdfs:label "Xanten-Wardt > 124"@en ;
+    ns1:hasImage <https://gitlab.rlp.net/wissit/img/navisone-images/-/raw/main/ship035/image/035f0018.jpg> ;
+    ns1:hasObjectTypeString "Schiffswrack"@de,
+        "Wreck"@en ;
+    ns1:hasType ns1:Wreck ;
+    ns1:madeOfString "Tanne"@de,
+        "Walnuß"@de,
+        "Fir (Abies)"@en,
+        "Walnut (Juglans spp.)"@en ;
+    ns1:timeInterval "Römisch"@de,
+        "Roman"@en ;
+    rdfs:seeAlso <https://archaeolink.github.io/navisone-lod/obj_100057/index.html> .
+

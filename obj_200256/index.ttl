@@ -1,0 +1,17 @@
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.archaeology.link/data/navisone/obj_200256> a ns1:InformationCarrier ;
+    rdfs:label "Bateau de Blessey"@en ;
+    ns1:hasImage <https://gitlab.rlp.net/wissit/img/navisone-images/-/raw/main/fr/frobj00028img01aaf.jpg> ;
+    ns1:hasObjectTypeString "Modell"@de,
+        "Model"@en ;
+    ns1:hasType ns1:Generic ;
+    ns1:madeByString "Gegossen"@de,
+        "Casting"@en ;
+    ns1:madeOfString "Bronze"@de,
+        "Bronze"@en ;
+    ns1:timeInterval "Römisch"@de,
+        "Roman"@en ;
+    rdfs:seeAlso <https://archaeolink.github.io/navisone-lod/obj_200256/index.html> .
+
