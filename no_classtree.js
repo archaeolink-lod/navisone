@@ -12247,15 +12247,12 @@ var tree={
               "instancecount": 1
             },
             "http://archaeology.link/ontology#hasObjectTypeString": {
-              "instancecount": 2
+              "instancecount": 6
             },
             "http://archaeology.link/ontology#hasType": {
               "instancecount": 1
             },
             "http://archaeology.link/ontology#madeByString": {
-              "instancecount": 2
-            },
-            "http://archaeology.link/ontology#madeOfString": {
               "instancecount": 2
             },
             "http://archaeology.link/ontology#timeInterval": {
@@ -12278,7 +12275,7 @@ var tree={
             }
           }
         },
-        "instancecount": 13
+        "instancecount": 15
       },
       {
         "id": "http://data.archaeology.link/data/navisone/activity_100007",
