@@ -1,8 +1,0 @@
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-<http://data.archaeology.link/data/navisone/activity_300300> a prov:Activity ;
-    prov:endedAtTime "2022-11-18T15:33:44.115437+00:00"^^xsd:dateTime ;
-    prov:startedAtTime "2022-11-18T15:33:43.276045+00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <http://data.archaeology.link/data/navisone/ImportPythonScript> .
-

@@ -1,6 +1,0 @@
-@prefix prov: <http://www.w3.org/ns/prov#> .
-
-<http://data.archaeology.link/data/navisone/300331> prov:wasAttributedTo <http://data.archaeology.link/data/navisone/ImportPythonScript> ;
-    prov:wasDerivedFrom <http://www.wikidata.org/entity/Q115264680> ;
-    prov:wasGeneratedBy <http://data.archaeology.link/data/navisone/activity_300331> .
-
