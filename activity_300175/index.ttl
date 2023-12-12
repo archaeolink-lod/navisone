@@ -1,7 +1,9 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/navisone/activity_300175> a prov:Activity ;
+<http://data.archaeology.link/data/navisone/activity_300175> a <http://www.w3.org/ns/ldp#Resource>,
+        prov:Activity,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     prov:endedAtTime "2022-11-18T15:33:44.037176+00:00"^^xsd:dateTime ;
     prov:startedAtTime "2022-11-18T15:33:43.276045+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <http://data.archaeology.link/data/navisone/ImportPythonScript> .

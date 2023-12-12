@@ -1,7 +1,9 @@
 @prefix ns1: <http://archaeology.link/ontology#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.archaeology.link/data/navisone/obj_300418> a ns1:InformationCarrier ;
+<http://data.archaeology.link/data/navisone/obj_300418> a ns1:InformationCarrier,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "O42192 > 72u | Allectus"@en ;
     ns1:hasImage <https://gitlab.rlp.net/wissit/img/navisone-images/-/raw/main/large/42192r00l.gif> ;
     ns1:hasObjectTypeString "M&uuml;nze"@de,

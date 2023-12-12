@@ -1,6 +1,8 @@
 @prefix ns1: <http://archaeology.link/ontology#> .
 
-<http://data.archaeology.link/data/navisone/obj_100099> ns1:hasObjectTypeString "Schiffswrack"@de,
+<http://data.archaeology.link/data/navisone/obj_100099> a <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    ns1:hasObjectTypeString "Schiffswrack"@de,
         "Wreck"@en ;
     ns1:madeOfString "Linde"@de,
         "Lime (Tilia spp.)"@en .

@@ -1,7 +1,9 @@
 @prefix ns1: <http://archaeology.link/ontology#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.archaeology.link/data/navisone/obj_200825> a ns1:InformationCarrier ;
+<http://data.archaeology.link/data/navisone/obj_200825> a ns1:InformationCarrier,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "R&aring;by runesten"@en ;
     ns1:hasImage <https://gitlab.rlp.net/wissit/img/navisone-images/-/raw/main/se/seobj0030img00f.jpg> ;
     ns1:hasObjectTypeString "Runenstein"@de,

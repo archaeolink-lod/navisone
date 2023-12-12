@@ -1,6 +1,8 @@
 @prefix ns1: <http://archaeology.link/ontology#> .
 
-<http://data.archaeology.link/data/navisone/obj_200407> ns1:hasObjectTypeString "Handschrift"@de,
+<http://data.archaeology.link/data/navisone/obj_200407> a <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    ns1:hasObjectTypeString "Handschrift"@de,
         "Manuscript"@en ;
     ns1:madeByString "Tinte"@de,
         "Ink"@en ;
