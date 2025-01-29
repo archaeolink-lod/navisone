@@ -18,13 +18,14 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
     with:
-      version: v018
+      version: v016
       rdffilepath: data/navisone.ttl
       docpath: docs
       prefixns: http://data.archaeology.link/data/navisone/
       prefixnsshort: no
       indexpages: true
       createcollections: true
+      createVOWL: true
       preferredlang: en
       ghpages: true
       metadatatable: true
@@ -33,4 +34,4 @@ jobs:
       ogcapifeatures: true
       datasettitle: NAVISone Linked Open Data
       templatedir: https://github.com/archaeolink-lod/unicorn-ontdoc-template-archaeolink/archive/refs/tags/v0.5.zip
-      iiif: true
+      iiif: false
