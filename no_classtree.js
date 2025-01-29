@@ -12247,7 +12247,7 @@ var tree={
               "instancecount": 1
             },
             "http://archaeology.link/ontology#hasObjectTypeString": {
-              "instancecount": 6
+              "instancecount": 2
             },
             "http://archaeology.link/ontology#hasType": {
               "instancecount": 1
@@ -12255,8 +12255,16 @@ var tree={
             "http://archaeology.link/ontology#madeByString": {
               "instancecount": 2
             },
+            "http://archaeology.link/ontology#madeOfString": {
+              "instancecount": 2
+            },
             "http://archaeology.link/ontology#timeInterval": {
               "instancecount": 2
+            },
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -12275,7 +12283,7 @@ var tree={
             }
           }
         },
-        "instancecount": 15
+        "instancecount": 14
       },
       {
         "id": "http://data.archaeology.link/data/navisone/activity_100007",
@@ -24478,6 +24486,11 @@ var tree={
         "text": "Activity (prov:Activity) [1742]",
         "data": {
           "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
+            },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
             },
@@ -24501,7 +24514,7 @@ var tree={
             }
           }
         },
-        "instancecount": 4
+        "instancecount": 5
       },
       {
         "id": "http://data.archaeology.link/data/navisone/InformationCarrier_collection",
@@ -24524,6 +24537,11 @@ var tree={
         "text": "Collection (skos:Collection) [2]",
         "data": {
           "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
+            },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
             },
@@ -24532,13 +24550,52 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 1742,
-              "http://archaeology.link/ontology#InformationCarrier": 1742
+              "http://www.w3.org/ns/prov#Activity": 1742
             }
           },
           "from": {}
         },
-        "instancecount": 1744
+        "instancecount": 1746
       }
     ]
+  },
+  "@context": {
+    "@version": 1.1,
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "ct": "http://purl.org/vocab/classtree#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "icon": "foaf:image",
+    "id": "@id",
+    "parent": "rdfs:subClassOf",
+    "halfgeoclass": "ct:HalfGeoClass",
+    "geoclass": {
+      "@type": "ct:icontype",
+      "@id": "ct:GeoClass"
+    },
+    "collectionclass": {
+      "@type": "ct:icontype",
+      "@id": "ct:CollectionClass"
+    },
+    "featurecollectionclass": {
+      "@type": "ct:icontype",
+      "@id": "ct:FeatureCollectionClass"
+    },
+    "class": "owl:Class",
+    "instance": "owl:NamedIndividual",
+    "geoinstance": {
+      "@type": "ct:Icontype",
+      "@id": "ct:GeoNamedIndividual"
+    },
+    "text": "rdfs:label",
+    "type": "ct:icontype",
+    "types": "ct:icontypes",
+    "core": {
+      "@type": "ct:TreeConfig",
+      "@id": "@nest"
+    },
+    "data": {
+      "@id": "ct:treeitem",
+      "@type": "ct:TreeItem"
+    }
   }
 }

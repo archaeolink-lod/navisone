@@ -1,1 +1,1 @@
-{"http://archaeology.link/ontology#hasObjectTypeString": ["Schiffswrack", "Wreck"], "http://archaeology.link/ontology#madeOfString": ["Linde", "Lime (Tilia spp.)"]}
+{"http://archaeology.link/ontology#hasObjectTypeString": ["Schiffswrack", "Wreck"], "http://archaeology.link/ontology#madeOfString": ["Linde", "Lime (Tilia spp.)"], "http://rdfs.org/ns/void#inDataset": ["http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data"]}

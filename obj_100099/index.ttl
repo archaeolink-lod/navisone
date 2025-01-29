@@ -1,9 +1,11 @@
 @prefix ns1: <http://archaeology.link/ontology#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 
 <http://data.archaeology.link/data/navisone/obj_100099> a <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     ns1:hasObjectTypeString "Schiffswrack"@de,
         "Wreck"@en ;
     ns1:madeOfString "Linde"@de,
-        "Lime (Tilia spp.)"@en .
+        "Lime (Tilia spp.)"@en ;
+    void:inDataset <http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data> .
 

@@ -1,7 +1,9 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 
 <http://data.archaeology.link/data/navisone/300453> a <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    void:inDataset <http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data> ;
     prov:wasAttributedTo <http://data.archaeology.link/data/navisone/ImportPythonScript> ;
     prov:wasDerivedFrom <http://www.wikidata.org/entity/Q115264680> ;
     prov:wasGeneratedBy <http://data.archaeology.link/data/navisone/activity_300453> .

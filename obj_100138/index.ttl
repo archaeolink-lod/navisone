@@ -1,4 +1,5 @@
 @prefix ns1: <http://archaeology.link/ontology#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 
 <http://data.archaeology.link/data/navisone/obj_100138> a <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
@@ -11,5 +12,6 @@
     ns1:timeInterval "Mittelalterlich"@de,
         "Slawisch"@de,
         "Medieval"@en,
-        "Slavonic"@en .
+        "Slavonic"@en ;
+    void:inDataset <http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data> .
 

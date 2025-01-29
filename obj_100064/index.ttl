@@ -1,5 +1,6 @@
 @prefix ns1: <http://archaeology.link/ontology#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 
 <http://data.archaeology.link/data/navisone/obj_100064> a ns1:InformationCarrier,
         <http://www.w3.org/ns/ldp#Resource>,
@@ -13,5 +14,6 @@
         "Oak (Quercus spp.)"@en ;
     ns1:timeInterval "Frühes Mittelalter"@de,
         "Medieval (early)"@en ;
+    void:inDataset <http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data> ;
     rdfs:seeAlso <https://archaeolink.github.io/navisone-lod/obj_100064/index.html> .
 

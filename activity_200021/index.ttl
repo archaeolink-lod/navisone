@@ -1,9 +1,11 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/navisone/activity_200021> a <http://www.w3.org/ns/ldp#Resource>,
         prov:Activity,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    void:inDataset <http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data> ;
     prov:endedAtTime "2022-11-18T15:33:43.453538+00:00"^^xsd:dateTime ;
     prov:startedAtTime "2022-11-18T15:33:43.276045+00:00"^^xsd:dateTime ;
     prov:wasAssociatedWith <http://data.archaeology.link/data/navisone/ImportPythonScript> .
