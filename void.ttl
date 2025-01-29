@@ -13207,7 +13207,7 @@
 <http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data_label> a void:Dataset ;
     rdfs:label "Property Partition: label"@en ;
     void:property rdfs:label ;
-    void:triples 1742 .
+    void:triples 1744 .
 
 <http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data_madeByString> a void:Dataset ;
     rdfs:label "Property Partition: madeByString"@en ;
@@ -13218,6 +13218,11 @@
     rdfs:label "Property Partition: madeOfString"@en ;
     void:property <http://archaeology.link/ontology#madeOfString> ;
     void:triples 2402 .
+
+<http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data_member> a void:Dataset ;
+    rdfs:label "Property Partition: member"@en ;
+    void:property rdfs:member ;
+    void:triples 3484 .
 
 <http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data_seeAlso> a void:Dataset ;
     rdfs:label "Property Partition: seeAlso"@en ;
@@ -13237,7 +13242,7 @@
 <http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data_type> a void:Dataset ;
     rdfs:label "Property Partition: type"@en ;
     void:property rdf:type ;
-    void:triples 3484 .
+    void:triples 3486 .
 
 <http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data_wasAssociatedWith> a void:Dataset ;
     rdfs:label "Property Partition: wasAssociatedWith"@en ;
@@ -13469,19 +13474,19 @@ prov: a voaf:Vocabulary ;
 <http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data> a void:Dataset,
         adms:Asset ;
     rdfs:label "NAVISone_Linked_Open_Data"@en ;
-    vext:averageLiteralLength 13 ;
-    vext:averageObjectIRILength 57 ;
+    vext:averageLiteralLength 0 ;
+    vext:averageObjectIRILength 37 ;
     vext:averagePropertyIRILength 42 ;
     vext:averageSubjectIRILength 53 ;
-    vext:datatypes 1 ;
+    vext:datatypes 0 ;
     vext:distinctBlankNodes 0 ;
-    vext:distinctIRIReferences 16064 ;
-    vext:distinctLiterals 3045 ;
-    vext:distinctRDFNodes 19109 ;
-    vext:languages 2 ;
+    vext:distinctIRIReferences 17810 ;
+    vext:distinctLiterals 0 ;
+    vext:distinctRDFNodes 17810 ;
+    vext:languages 0 ;
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2025-01-29T14:34:29"^^xsd:dateTime ;
+    dcterms:modified "2025-01-29T15:09:07"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -13495,12 +13500,12 @@ prov: a voaf:Vocabulary ;
         <http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data_InformationCarrier> ;
     void:classes 3 ;
     void:dataDump <https://archaeolink-lod.github.io/navisone//index.ttl> ;
-    void:distinctObjects 9067 ;
+    void:distinctObjects 10812 ;
     void:distinctSubjects 6980 ;
     void:entities 5241 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
-    void:properties 17 ;
+    void:properties 18 ;
     void:propertyPartition <http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data_endedAtTime>,
         <http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data_hasImage>,
         <http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data_hasObjectTypeString>,
@@ -13509,6 +13514,7 @@ prov: a voaf:Vocabulary ;
         <http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data_label>,
         <http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data_madeByString>,
         <http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data_madeOfString>,
+        <http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data_member>,
         <http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data_seeAlso>,
         <http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data_startedAtTime>,
         <http://data.archaeology.link/data/navisone/NAVISone_Linked_Open_Data_timeInterval>,

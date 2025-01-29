@@ -12244,36 +12244,36 @@ var tree={
         "data": {
           "to": {
             "http://archaeology.link/ontology#hasImage": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://archaeology.link/ontology#hasObjectTypeString": {
-              "instancecount": 2
-            },
-            "http://archaeology.link/ontology#hasType": {
               "instancecount": 1
             },
+            "http://archaeology.link/ontology#hasType": {
+              "instancecount": 0
+            },
             "http://archaeology.link/ontology#madeByString": {
-              "instancecount": 2
+              "instancecount": 1
             },
             "http://archaeology.link/ontology#madeOfString": {
-              "instancecount": 2
+              "instancecount": 1
             },
             "http://archaeology.link/ontology#timeInterval": {
-              "instancecount": 2
+              "instancecount": 1
             },
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 1,
+              "instancecount": 0,
               "http://www.w3.org/ns/adms#Asset": 1,
               "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#seeAlso": {
-              "instancecount": 1
+              "instancecount": 0
             }
           },
           "from": {
@@ -12283,7 +12283,7 @@ var tree={
             }
           }
         },
-        "instancecount": 14
+        "instancecount": 4
       },
       {
         "id": "http://data.archaeology.link/data/navisone/activity_100007",
@@ -24487,21 +24487,21 @@ var tree={
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 1,
+              "instancecount": 0,
               "http://www.w3.org/ns/adms#Asset": 1,
               "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.w3.org/ns/prov#endedAtTime": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.w3.org/ns/prov#startedAtTime": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.w3.org/ns/prov#wasAssociatedWith": {
-              "instancecount": 1
+              "instancecount": 0
             }
           },
           "from": {
@@ -24514,7 +24514,7 @@ var tree={
             }
           }
         },
-        "instancecount": 5
+        "instancecount": 0
       },
       {
         "id": "http://data.archaeology.link/data/navisone/InformationCarrier_collection",
@@ -24538,24 +24538,24 @@ var tree={
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 1,
+              "instancecount": 0,
               "http://www.w3.org/ns/adms#Asset": 1,
               "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 1742,
+              "instancecount": 1741,
               "http://www.w3.org/ns/prov#Activity": 1742
             }
           },
           "from": {}
         },
-        "instancecount": 1746
+        "instancecount": 1742
       }
     ]
   },
