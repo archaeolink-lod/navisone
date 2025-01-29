@@ -18,7 +18,7 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
     with:
-      version: v017dev
+      version: v017
       rdffilepath: data/navisone.ttl
       docpath: docs
       prefixns: http://data.archaeology.link/data/navisone/
